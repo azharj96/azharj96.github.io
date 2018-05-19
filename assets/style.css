@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Gill Sans';
+  font-weight: normal;
+  src: url('GillSans.ttf');
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+  src: url('GillSans.ttf');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  src: url('PlayfairDisplay-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans';
+  background: #191919;
+}
+
+#wrapper {
+  margin: 0 18% 0 18%;
+  background: #1C1C1D;
+}
+
+#main {
+  padding: 4em 2.5em;
+}
+
+#logo {
+  margin: 0 auto;
+}
+
+#logo, #logo img {
+  width: 8em;
+}
+
+#contact {
+  width: 100%;
+  margin: 3em 0 2em 0;
+  padding: 0.5em 0;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: #141414;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #747474;
+}
+
+#items .item {
+  width: 100%;
+  margin: 2em 0;
+}
+
+#items .item .meta {
+  clear: both;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+#items .item .meta .category {
+  float: left;
+  text-transform: uppercase;
+}
+
+#items .item .meta .date {
+  float: right;
+}
+
+#items .item .content {
+  margin: 0 2.5em;
+  border-bottom: 1px solid #454545;
+}
+
+#items .item .content h2.title, #items .item .content h2.title a {
+  margin: 0.5em 0;
+  font-family: 'Playfair Display';
+  font-weight: lighter;
+  color: rgba(228, 228, 228, 0.9);
+}
+
+#items .item .content p.summary {
+  color: rgba(255, 255, 255, 0.3);
+}
