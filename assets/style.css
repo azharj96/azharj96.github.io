@@ -16,6 +16,10 @@
   src: url('PlayfairDisplay-Regular.ttf');
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   font-family: 'Gill Sans';
@@ -60,18 +64,17 @@ body {
 }
 
 #items .item .meta {
-  clear: both;
+  display: flex;
   overflow: hidden;
   color: rgba(255, 255, 255, 0.2);
 }
 
 #items .item .meta .category {
-  float: left;
   text-transform: uppercase;
 }
 
 #items .item .meta .date {
-  float: right;
+  margin-left: auto;
 }
 
 #items .item .content {
@@ -91,7 +94,7 @@ body {
 }
 
 /* Desktops */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   #wrapper {
     margin: 0 18% 0 18%;
   }
