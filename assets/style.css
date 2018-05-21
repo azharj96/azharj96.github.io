@@ -51,6 +51,7 @@ body {
   border-radius: 5px;
   text-transform: uppercase;
   background: #141414;
+  letter-spacing: 3px;
 }
 
 #contact a {
@@ -71,6 +72,7 @@ body {
 
 #items .item .meta .category {
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 #items .item .meta .date {
@@ -83,7 +85,7 @@ body {
 }
 
 #items .item .content h2.title, #items .item .content h2.title a {
-  margin: 0.5em 0;
+  margin: 0.5em 0 -0.5em 0
   font-family: 'Playfair Display';
   font-weight: lighter;
   color: rgba(228, 228, 228, 0.9);
