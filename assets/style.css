@@ -41,6 +41,7 @@ body {
 
 #logo, #logo img {
   width: 8em;
+  opacity: 0.7;
 }
 
 #contact {
@@ -85,7 +86,7 @@ body {
 }
 
 #items .item .content h2.title, #items .item .content h2.title a {
-  margin: 0.5em 0 -0.5em 0
+  margin: 0.5em 0 -0.5em 0;
   font-family: 'Playfair Display';
   font-weight: lighter;
   color: rgba(228, 228, 228, 0.9);
@@ -93,6 +94,7 @@ body {
 
 #items .item .content p.summary {
   color: rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.4px;
 }
 
 /* Desktops */
