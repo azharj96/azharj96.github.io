@@ -16,6 +16,12 @@
   src: url('PlayfairDisplay-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  src: url('PlayfairDisplay-Bold.ttf');
+}
+
 html {
   font-size: 16px;
 }
