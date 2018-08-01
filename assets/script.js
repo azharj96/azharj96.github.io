@@ -4,9 +4,9 @@ const items = document.getElementById('items');
 contact.innerHTML = `<a href="${data.contact.url}"><span>${data.contact.text}</span></a>`;
 
 items.innerHTML = data.items.map(function (item) {
-  const title = item.url
-    ? `<h2 class="title"><a href="${item.url}">${item.title}</a></h2>`
-    : `<h2 class="title">${item.title}</h2>`;
+  const link = item.url
+    ? `<a href="${item.url}" class="more">SEE MORE</a>`
+    : ``;
   return `<div class="item">
 
     <div class="block"></div>
@@ -17,9 +17,13 @@ items.innerHTML = data.items.map(function (item) {
     </div>
 
     <div class="content">
-      ${title}
+      <h2 class="title">${item.title}</h2>
       <p class="summary">${item.summary}</p>
     </div>
+
+    <div class="extra">
+        ${link}
+    </div> 
     
   </div>`;
 }).join('');
