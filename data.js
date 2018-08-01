@@ -16,7 +16,7 @@ let data = {
       date: '2018',
       title: 'Currant - A Global Satisfaction Network',
       summary: 'A token leveraging blockchain technology as an incremental reward system for performance in the workplace',
-      url: 'http://azharjamal.com'
+      url: 'http://currantcoin.com'
     },
     {
       category: 'Research',
