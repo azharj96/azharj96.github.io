@@ -9,6 +9,8 @@ items.innerHTML = data.items.map(function (item) {
     : `<h2 class="title">${item.title}</h2>`;
   return `<div class="item">
 
+    <div class="block"></div>
+    
     <div class="meta">
       <div class="category"><span>${item.category}</span></div>
       <div class="date"><span>${item.date}</span></div>
@@ -18,6 +20,6 @@ items.innerHTML = data.items.map(function (item) {
       ${title}
       <p class="summary">${item.summary}</p>
     </div>
-    <div class="block"></div>
+    
   </div>`;
 }).join('');
