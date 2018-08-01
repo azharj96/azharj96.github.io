@@ -21,8 +21,8 @@ let data = {
     {
       category: 'Research',
       date: '2018',
-      title: 'Using an LSTM for Stock Price Forecasting',
-      summary: '',
+      title: 'LSTM Stock Price Forecasting',
+      summary: 'Implementation of a long short term memory neural network to predict the price of a stock for the next week',
       url: undefined
     },
     {
@@ -30,7 +30,7 @@ let data = {
       date: '2017',
       title: 'DoIDate',
       summary: 'A review platform for dating',
-      url: undefined
+      url: 'https://doidate.com/'
     },
     {
       category: 'Startup',
@@ -43,7 +43,7 @@ let data = {
       category: 'Startup',
       date: '2016',
       title: 'Stuiz',
-      summary: '',
+      summary: 'A winning competition entry that pits university students against each other in course-specific quizzes',
       url: 'http://blogs.bath.ac.uk/keithbrown/2016/09/13/stuiz/'
     },
     {
@@ -64,7 +64,7 @@ let data = {
       category: 'App',
       date: '2013/14',
       title: 'Unify',
-      summary: 'The beginning. A Physics Equation Solver.',
+      summary: 'The first app I wrote: a physics equation solver.',
       url: 'https://play.google.com/store/apps/details?id=com.azharj.unify'
     }
       

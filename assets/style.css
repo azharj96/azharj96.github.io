@@ -115,6 +115,7 @@ body {
     z-index: 2;
 }
 
+
 #items .item .content p.summary {
   color: rgba(255, 255, 255, 0.4);
   letter-spacing: 0.4px;
@@ -123,6 +124,7 @@ body {
   font-size: 14px;
   text-align: right;
   margin-left: 16px;
+    margin-top: 4px;
     z-index: 2;
 }
 
