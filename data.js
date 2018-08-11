@@ -5,7 +5,7 @@ let data = {
   },
   items: [
     {
-      category: 'Research',
+      category: 'Research (ongoing)',
       date: '2018',
       title: 'Views on AI',
       summary: 'An investigation into the public perception of AI',
