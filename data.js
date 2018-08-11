@@ -7,6 +7,13 @@ let data = {
     {
       category: 'Research',
       date: '2018',
+      title: 'Views on AI',
+      summary: 'An investigation into the public perception of AI',
+      url: 'http://azharjamal.com/views-on-ai'
+    },
+    {
+      category: 'Research',
+      date: '2018',
       title: 'Financial Crisis Prediction with Econophysics',
       summary: 'Computational modelling of an investing population to simulate financial crisis ensembling various models in Econophysics',
       url: undefined
