@@ -1,0 +1,53 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'circular';
+  background: #0D0D0D;
+  padding: 4em 0em;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    height: auto;
+    margin:0 auto;
+}
+
+#button {
+  width: 60%;
+  max-width: 200px;
+  height: auto;
+  background-color: white;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px;
+}
+#button span{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1em;
+}
+
+#button img {
+    float: right;
+}
+
+@font-face {
+  font-family: 'circular';
+  font-weight: normal;
+  src: url('circular-book.otf');
+}
