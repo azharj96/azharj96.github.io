@@ -8,6 +8,12 @@ body {
   padding: 4em 0em;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-size: 52px;
+}
 
 p {
     color: white;
