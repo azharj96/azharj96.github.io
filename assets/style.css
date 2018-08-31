@@ -92,11 +92,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
+  z-index: 2;
 }
 
 #items .item .meta .date {
   margin-left: auto;
-    z-index: 2;
+  z-index: 2;
 }
 
 #items .item .content {
