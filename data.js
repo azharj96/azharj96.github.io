@@ -42,8 +42,8 @@ let data = {
     {
       category: 'Startup',
       date: '2016/17',
-      title: 'Snatch',
-      summary: 'An augmented reality treasure hunt game',
+      title: 'Snatch: AR treasure hunt game',
+      summary: '1M users within 6 months. Partners included Pizza Hut, Topman, Unilever.',
       url: undefined
     },
     {

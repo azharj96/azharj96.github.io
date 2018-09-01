@@ -1,0 +1,45 @@
+
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="assets/404style.css">
+    <title>Views on AI</title>
+    <link rel="icon" href="assets/logo.png">
+      
+  
+    <script>
+        function chooseGroup() {
+          var x = Math.random()
+          if(x > 0.5) {
+              //Group 1
+              redirectTo("https://docs.google.com/forms/d/e/1FAIpQLSekkNt4lfYDMo7WF1OZXoz2N1K8_DpqifOUMKcsKmiUoX0TZQ/viewform?usp=sf_link")
+          }   else {
+              //Group A
+              redirectTo("https://docs.google.com/forms/d/e/1FAIpQLSedE-U4ooFbb-J4aCy3viKtS5FokBKIUSA3H8g24zVWmaR4AA/viewform?usp=sf_link")
+          }    
+        }
+
+        function redirectTo(url) {
+          window.location.href = url
+        }
+  
+//        setTimeout('chooseGroup()', 1000);  
+    </script>
+
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="main">
+        <div id="logo">
+          <img alt="Logo" src="assets/logo_white.png" />
+        </div>
+        <h1>Views on AI</h1>
+        <p>If you are not redirected, please click the button below</p>
+          
+        <button id="redirectButton" onclick="chooseGroup()">REDIRECT</button>
+      </div>
+    </div>
+  </body>
+</html>
