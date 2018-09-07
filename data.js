@@ -9,7 +9,7 @@ let data = {
       date: '2018',
       title: 'Views on AI',
       summary: 'An investigation into the public perception of AI',
-      url: 'http://azharjamal.com/views-on-ai'
+      url: 'http://azharjamal.com/views-on-ai.html'
     },
     {
       category: 'Research',
