@@ -4,6 +4,22 @@ let data = {
     url: 'mailto:contact@azharjamal.com'
   },
   items: [
+
+    {
+      category: 'App (ongoing)',
+      date: '2018',
+      title: 'Financial Independence Tool',
+      summary: 'Helping provide visibility on ones financial future. Built for iOS and Android',
+      url: undefined
+    },
+
+    {
+      category: 'App (ongoing)',
+      date: '2018',
+      title: 'R.E.D.',
+      summary: 'Resolution Enhancement on Device using a generative adversarial neural network. Built for iOS and Android',
+      url: 'https://studioairt.com/red/'
+    },
     {
       category: 'Research (ongoing)',
       date: '2018',
@@ -23,7 +39,7 @@ let data = {
       date: '2018',
       title: 'Currant - A Global Satisfaction Network',
       summary: 'A token leveraging blockchain technology as an incremental reward system for performance in the workplace',
-      url: 'http://currantcoin.com'
+      url: 'http://azharjamal.com/currant/'
     },
     {
       category: 'Research',
@@ -43,7 +59,7 @@ let data = {
       category: 'Startup',
       date: '2016/17',
       title: 'Snatch: AR treasure hunt game',
-      summary: '1M users within 6 months. Partners included Pizza Hut, Topman, Unilever.',
+      summary: '500K users within 6 months. Partners included Pizza Hut, Topman, Unilever.',
       url: undefined
     },
     {
@@ -51,7 +67,7 @@ let data = {
       date: '2016',
       title: 'Stuiz',
       summary: 'A winning competition entry that pits university students against each other in course-specific quizzes',
-      url: 'http://blogs.bath.ac.uk/keithbrown/2016/09/13/stuiz/'
+      url: 'https://web.archive.org/web/20181201074658/http://blogs.bath.ac.uk/keithbrown/2016/09/13/stuiz/'
     },
     {
       category: 'App',
