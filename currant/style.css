@@ -1,0 +1,315 @@
+html {
+    font-family: bookfont;
+    overflow-x: hidden;
+}
+
+h2 {
+    color: #505050;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-left: -24px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+a {
+    color: black;
+    font-family: boldfont;
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+/*    border: 1px solid blue;*/
+}
+
+.colHalf {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+
+div.sectionRed{
+  width: 100%;
+/*  height: 100%;*/
+  background-color: #CC5252;
+}
+
+div.sectionRed p {
+    color: #EEC7C7;
+    margin-top: 5%;
+}
+
+div.sectionRed h2 {
+    color: white;
+}
+
+div.sectionRed h3 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;  
+}
+
+div.sectionWhite{
+  width: 100%;
+  height: 100%;
+  background-color: FFF;
+}
+
+div.sectionWhite p {
+    color: #505050;
+    margin-top: 40px;
+}
+
+
+
+#visionDivider {
+    background-color: white; 
+    width: 1.5px; 
+    height: 100px; 
+    opacity: 0.6;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#visionPointsRow {
+    width: 80%;
+}
+
+#visionFigure {
+    max-width: 300px;
+}
+
+#visionWebTop {
+    width: 70%;
+    max-width: 800px;
+    transform: rotate(-119deg);
+    opacity: 0.12;
+    position: absolute;
+    left: 65%;
+}
+
+#visionWebBottom {
+    width: 70%;
+    max-width: 400px;
+    transform: rotate(38deg);
+    opacity: 0.24;
+    position: absolute;
+    left: -90px;
+    bottom: 0px;
+}
+
+
+#visionPointLeft {
+    font-size: 22px;
+    text-align: right;
+    font-style: italic;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+#visionPointRight {
+    font-size: 22px;
+    text-align: left;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+#visionPointDesc {
+    font-size: 14px;
+    margin-top: -14px;
+}
+
+
+
+#footer {
+    text-align: right;
+    padding-left: 15%;
+    padding-right: 10%;
+    opacity: 0.8;
+}
+
+
+
+.figure {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figureCaption {
+    color: #8A8A8A;
+    font-style: italic;
+    font-size: 14px;
+    float: right;
+    margin-top: 5px;
+}
+
+div.logo{
+  width: 10%;
+  height: 40px;
+  background-image: url("./assets/icon_small.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 18px;
+  margin-top: 18px;
+  float: left;
+}
+
+div.menu{
+  width: auto;
+  height: auto;
+  margin-right: 24px;
+  margin-top: 24px;
+  float: right;
+  color: white;
+  font-family: bookfont;
+  letter-spacing: 1.4px;
+  font-size: 1em;
+}
+
+div.sectionContainer {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#landingContainer {
+    padding-top: 20%;
+    z-index: 2;
+}
+
+#landingSection {
+    background-image: url(./assets/bg_blurred.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip:content-box;
+    height: auto;
+    min-height: 100%;
+}
+
+div.title{
+  width: auto;
+  height: auto;
+  float: left;
+  font-family: boldfont;
+  color: FFFFFF;
+  letter-spacing: 0.5px;
+  font-size: 4em;
+}
+
+
+div.subtitle{
+  width: auto;
+  height: auto;
+  float: left;
+  font-family: bookfont;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6em;
+}
+
+.button {
+  width: auto;
+  height: auto;
+  background-color: white;
+  border-radius: 100px;
+  margin-top: 10%;
+  padding: 10px 90px 10px 20px;
+  float: left;
+  font-family: boldfont;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1em;
+}
+
+
+
+
+div.fit{
+/*  width: auto;*/
+  height: auto;
+  overflow: hidden; 
+}
+
+
+/* If the screen size is 600px or less: */
+@media only screen and (max-width: 600px) {
+    div.colHalf {
+        width: 100%;
+    }
+    
+    #visionDivider {
+        display: none;
+    }
+    
+    #visionPointsRow {
+        width: 100%;
+    }
+    
+    #landingContainer {
+        padding-top: 30%;
+    }
+    
+    div.title{
+      letter-spacing: 0.5px;
+      font-size: 15vmin;
+    }
+    div.subtitle{
+      font-size: 5vmin;
+    }
+    .button {
+      border-radius: 100px;
+      margin-top: 10%;
+      padding: 10px 90px 10px 20px;
+/*      font-size: 3.5vmin;*/
+    }
+}
+
+
+/* If the screen size is 1024px or more: */
+@media only screen and (min-width: 1023px) {
+    div.sectionContainer {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+@font-face {
+    font-family: blackfont;
+    src: url(./assets/circular-black.otf);
+}
+@font-face {
+    font-family: boldfont;
+    src: url(./assets/circular-bold.otf);
+}
+@font-face {
+    font-family: bookfont;
+    src: url(./assets/circular-book.otf);
+}
+@font-face {
+    font-family: mediumfont;
+    src: url(./assets/circular-medium.otf);
+}
+
+
+
